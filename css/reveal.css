@@ -1364,3 +1364,7 @@ html:-moz-full-screen-ancestor {
   margin: 0 auto; }
   .slides .mb-center-this iframe {
     margin: 0 auto; }
+
+.slides .mb-citation-footer {
+  font-size: .7em;
+  padding-top: 1em; }

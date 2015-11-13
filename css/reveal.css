@@ -1359,3 +1359,8 @@ html:-moz-full-screen-ancestor {
 .slides .mb-bg-image h1 {
   color: white;
   text-shadow: 0 0 5px rgba(62, 70, 64, 0.7); }
+
+.slides .mb-center-this {
+  margin: 0 auto; }
+  .slides .mb-center-this iframe {
+    margin: 0 auto; }

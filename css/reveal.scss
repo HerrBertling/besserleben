@@ -1383,26 +1383,34 @@ html:-moz-full-screen-ancestor {
 
 $mainColor: #3e4640;
 
-.slides .mb-ressources {
-	h2 {
-		font-size: .8em;
+.slides {
+	.mb-ressources {
+		h2 {
+			font-size: .8em;
+		}
+		ul, p {
+			font-size: .5em;
+		}
+		li {
+			margin-bottom: 1.5em;
+		}
+		blockquote {
+			border-left: 2px solid $mainColor;
+			box-shadow: none;
+			margin: 10px;
+			padding-left: 10px
+		}
 	}
-	ul, p {
-		font-size: .5em;
+	.mb-bg-image {
+		h1 {
+			color: white;
+			text-shadow: 0 0 5px rgba($mainColor, .7);
+		}
 	}
-	li {
-		margin-bottom: 1.5em;
-	}
-	blockquote {
-		border-left: 2px solid $mainColor;
-		box-shadow: none;
-		margin: 10px;
-		padding-left: 10px
-	}
-}
-.slides .mb-bg-image {
-	h1 {
-		color: white;
-		text-shadow: 0 0 5px rgba($mainColor, .7);
+	.mb-center-this {
+		margin: 0 auto;
+		iframe {
+			margin: 0 auto;
+		}
 	}
 }
